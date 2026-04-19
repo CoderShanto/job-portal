@@ -10,6 +10,6 @@
     <h1>Hello {{ $mailData['user']->name }}</h1>
     <p>Click below to change your password</p>
     <a href="{{ route("account.resetPassword",$mailData['token']) }}">Click Here</a>
-    <p>Thank You</p>
+    <p>Thanks</p>
 </body>
 </html>
