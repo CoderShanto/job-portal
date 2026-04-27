@@ -11,5 +11,7 @@
     <p>Click below to change your password</p>
     <a href="{{ route("account.resetPassword",$mailData['token']) }}">Click Here</a>
     <p>Thank You done sir</p>
+
+
 </body>
 </html>
